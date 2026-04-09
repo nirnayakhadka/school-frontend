@@ -31,8 +31,8 @@ const Hero = () => {
   const [current, setCurrent] = useState(0);
   const [progress, setProgress] = useState(0);
   const [zoomed, setZoomed] = useState(true);
-  const progressRef = useRef<NodeJS.Timeout | null>(null);
-  const slideRef = useRef<NodeJS.Timeout | null>(null);
+  const progressRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const slideRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const startCycle = (idx: number) => {
     // Clear existing timers

@@ -19,7 +19,7 @@ const Booklet3D = () => {
   const flipBookRef = useRef<any>(null);
   const [currentPage, setCurrentPage] = useState(0);
   const [isFlipping, setIsFlipping] = useState(false); // prevent overlapping flips
-  const autoFlipInterval = useRef<NodeJS.Timeout | null>(null);
+const autoFlipInterval = useRef<ReturnType<typeof setTimeout> | null>(null);
   const totalPages = pageImages.length; // including cover
 
   const nextPage = () => {
@@ -153,6 +153,12 @@ const Booklet3D = () => {
           >
             <div className="w-full max-w-md mx-auto relative">
               <HTMLFlipBook
+                startPage={0}
+                clickEventForward={true}
+                useMouseEvents={true}
+                swipeDistance={30}
+                showPageCorners={true}
+                disableFlipByClick={false}
                 ref={flipBookRef}
                 width={380}
                 height={507}
