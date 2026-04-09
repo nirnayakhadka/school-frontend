@@ -1,0 +1,27 @@
+// public/mock/tiktok-posts.json
+[
+  {
+    "id": "tt1",
+    "platform": "tiktok",
+    "thumbnail": "https://picsum.photos/id/29/400/300",
+    "caption": "Dance performance by our students at the annual function 🎭 #SchoolEvent #CornerstoneTalent",
+    "link": "https://tiktok.com/@cornerstone_foundation/video/1",
+    "createdAt": "2024-03-12T18:45:00Z"
+  },
+  {
+    "id": "tt2",
+    "platform": "tiktok",
+    "thumbnail": "https://picsum.photos/id/30/400/300",
+    "caption": "Behind the scenes: Robotics club preparing for national competition 🤖 #STEM #Robotics",
+    "link": "https://tiktok.com/@cornerstone_foundation/video/2",
+    "createdAt": "2024-03-08T20:00:00Z"
+  },
+  {
+    "id": "tt3",
+    "platform": "tiktok",
+    "thumbnail": "https://picsum.photos/id/31/400/300",
+    "caption": "Morning assembly vibes - discipline, dedication, and determination 💪 #SchoolLife",
+    "link": "https://tiktok.com/@cornerstone_foundation/video/3",
+    "createdAt": "2024-03-01T07:30:00Z"
+  }
+]

@@ -1,0 +1,27 @@
+// public/mock/facebook-posts.json
+[
+  {
+    "id": "fb1",
+    "platform": "facebook",
+    "thumbnail": "https://picsum.photos/id/20/400/300",
+    "caption": "Our annual sports day was a huge success! Students showcased amazing talent and teamwork. 🏆 #SportsDay #CornerstoneFoundation",
+    "link": "https://facebook.com/csfdamak/posts/1",
+    "createdAt": "2024-03-15T10:00:00Z"
+  },
+  {
+    "id": "fb2",
+    "platform": "facebook",
+    "thumbnail": "https://picsum.photos/id/26/400/300",
+    "caption": "Science exhibition 2024 - young minds presenting innovative projects. Proud of our future scientists! 🔬 #ScienceFair",
+    "link": "https://facebook.com/csfdamak/posts/2",
+    "createdAt": "2024-03-10T14:30:00Z"
+  },
+  {
+    "id": "fb3",
+    "platform": "facebook",
+    "thumbnail": "https://picsum.photos/id/28/400/300",
+    "caption": "Celebrating International Literacy Day with book donation drive. Thank you to all volunteers! 📚 #LiteracyForAll",
+    "link": "https://facebook.com/csfdamak/posts/3",
+    "createdAt": "2024-03-05T09:15:00Z"
+  }
+]

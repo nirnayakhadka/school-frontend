@@ -1,0 +1,14 @@
+@import 'aos/dist/aos.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading-1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-black text-primary leading-[1.1] text-center mx-auto max-w-4xl mb-8;
+  }
+  .heading-2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-black text-primary leading-tight text-center mx-auto max-w-4xl mb-6;
+  }
+}
