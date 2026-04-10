@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     easing: 'ease-out-cubic',
     once: false,
     mirror: true,
-    disable: 'mobile',
+    // disable: 'mobile',  // Enabled for mobile testing
     delay: 0
   });
 });

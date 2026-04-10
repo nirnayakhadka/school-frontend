@@ -8,10 +8,11 @@ import Features from '../components/Features';
 import SocialMediaSection from '../components/SocialMediaSection';
 import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
-import CTA from '../components/CTA';
+
 import Footer from '../components/Footer';
 // import Booklet3D from '../components/BrochureFlipbook';
 import OurTeams from '../components/Ourteams';
+import Alumni from '../components/Alumni';
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);       // topbar collapses
   const [headerVisible, setHeaderVisible] = useState(true); // full header hide/show
@@ -72,21 +73,23 @@ const Home = () => {
       </div>
 
       {/* Spacer: notice(36) + topbar(~88) + navbar(~48) = 172px; when scrolled topbar hidden */}
-      <div style={{ height: scrolled ? 84 : 152 }} className="transition-all duration-300" />
+<div style={{ height: scrolled ? '48px' : '132px' }} className="transition-all duration-300" />
 
       <section id="home" className="w-full" data-aos="fade-down" data-aos-duration="800"><Hero /></section>
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white">
+   
         <section id="about" data-aos="fade-up" data-aos-duration="700"><About /></section>
         <section id="academics" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"><Features /></section>
-        <section id="social" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700"><SocialMediaSection /></section>
+
 
         <section id="gallery" data-aos="fade-up" data-aos-delay="300" data-aos-duration="700"><Gallery /></section>
         {/* <section id="brochure"><Booklet3D /></section> */}
         <section id="teams" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700"><OurTeams /></section>
-        <section id="testimonials" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700"><Testimonials /></section>
-        
-      </main>
-      <section id="admissions" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800"><CTA /></section>
+                      <section id="testimonials" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700"><Testimonials /></section>
+         <section id="teams" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700"><Alumni /></section>
+
+                <section id="social" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700"><SocialMediaSection /></section>
+
+   
       <Footer data-aos="fade-up" data-aos-delay="600" />
 
     </div>
